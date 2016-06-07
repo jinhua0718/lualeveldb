@@ -115,7 +115,7 @@ int leveldb_open(lua_State *L){
     lua_setfield(L,methods,"put");
 
     lua_pushcfunction(L,leveldb_del);
-    lua_setfield(L,methods,"del");
+    lua_setfield(L,methods,"delete");
 
     lua_pushcfunction(L,leveldb_getiter);
     lua_setfield(L,methods,"iterator");

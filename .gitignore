@@ -1,0 +1,7 @@
+.db
+.sconsign.dblite
+*.class
+*.o
+*.pyc
+*.os
+
