@@ -15,9 +15,7 @@
 >>special: db:put(key,value) == db:delete(key) only if value is nil.<br/>
 
 4. **iterator**
->>for k,v in db:iterator()<br/>
->>>>print(k,v)<br/>
->>end<br/>
+    for k,v in db:iterator()  print(k,v) end<br/>
 
 
 
