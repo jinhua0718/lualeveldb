@@ -14,8 +14,8 @@
 >>db:delete(key) --e.g: db:delete("abc")<br/>
 >>special: db:put(key,value) == db:delete(key) only if value is nil.<br/>
 
-4. **iterator**
-    for k,v in db:iterator()  print(k,v) end<br/>
+4. **iterator**<br/>
+    for k,v in db:iterator() print(k,v) end<br/>
 
 
 
